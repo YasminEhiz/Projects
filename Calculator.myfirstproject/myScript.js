@@ -54,5 +54,9 @@ const calculateEquals = () => {
   }else if(operation === '%'){
     result = firstNumber % secondNumber
     display.value = result
+  }else if (operation === '^'){
+    result = firstNumber ** secondNumber
+    display.value = result
   }
+
 }
